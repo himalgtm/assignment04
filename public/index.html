@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🐶 Retro Dog Viewer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🐾Dog Browser</h1>
+    <p>Pick a breed</p>
+
+    <div class="controls">
+      <label for="breedSelect">Breed:</label>
+      <select id="breedSelect">
+        <option>Loading...</option>
+      </select>
+      <button onclick="fetchImage()">🎲 Fetch Image</button>
+    </div>
+
+    <div class="img-container">
+      <img id="dogImage" src="" alt="Selected dog will appear here" />
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
